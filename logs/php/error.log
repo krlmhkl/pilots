@@ -3,3 +3,188 @@
 [28-Apr-2022 13:24:59 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/krlmhkl/Local Sites/pilots/app/public/wp-content/themes/test-theme/functions.php on line 9
 [28-Apr-2022 13:24:59 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/krlmhkl/Local Sites/pilots/app/public/wp-content/themes/test-theme/functions.php on line 9
 [28-Apr-2022 13:56:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/krlmhkl/Local Sites/pilots/app/public/wp-content/themes/test-theme/functions.php on line 15
+[28-Apr-2022 22:27:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:04 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:04 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:0
+[28-Apr-2022 22:27:04 UTC] PHP   2. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:22
+[28-Apr-2022 22:27:04 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:04 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:04 UTC] PHP   5. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:04 UTC] PHP   6. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:04 UTC] PHP   7. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:27:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:05 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:05 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/themes.php:0
+[28-Apr-2022 22:27:05 UTC] PHP   2. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/themes.php:10
+[28-Apr-2022 22:27:05 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin.php:34
+[28-Apr-2022 22:27:05 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:05 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:05 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:05 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:05 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:27:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:06 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:06 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:0
+[28-Apr-2022 22:27:06 UTC] PHP   2. require() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:17
+[28-Apr-2022 22:27:06 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-blog-header.php:13
+[28-Apr-2022 22:27:06 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:06 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:06 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:06 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:06 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:27:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:28 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:28 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/themes.php:0
+[28-Apr-2022 22:27:28 UTC] PHP   2. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/themes.php:10
+[28-Apr-2022 22:27:28 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin.php:34
+[28-Apr-2022 22:27:28 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:28 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:28 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:28 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:28 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:27:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:29 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:29 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:0
+[28-Apr-2022 22:27:29 UTC] PHP   2. require() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:17
+[28-Apr-2022 22:27:29 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-blog-header.php:13
+[28-Apr-2022 22:27:29 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:29 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:29 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:29 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:29 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:27:32 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:32 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:32 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/customize.php:0
+[28-Apr-2022 22:27:32 UTC] PHP   2. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/customize.php:13
+[28-Apr-2022 22:27:32 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin.php:34
+[28-Apr-2022 22:27:32 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:32 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:32 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:32 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:32 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:27:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:34 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:34 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:0
+[28-Apr-2022 22:27:34 UTC] PHP   2. require() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:17
+[28-Apr-2022 22:27:34 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-blog-header.php:13
+[28-Apr-2022 22:27:34 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:34 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:34 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:34 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:34 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:27:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:34 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:34 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:0
+[28-Apr-2022 22:27:34 UTC] PHP   2. require() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:17
+[28-Apr-2022 22:27:34 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-blog-header.php:13
+[28-Apr-2022 22:27:34 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:34 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:34 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:34 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:34 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:27:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:34 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:34 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:0
+[28-Apr-2022 22:27:34 UTC] PHP   2. require() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:17
+[28-Apr-2022 22:27:34 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-blog-header.php:13
+[28-Apr-2022 22:27:34 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:34 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:34 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:34 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:34 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:27:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:35 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:35 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:0
+[28-Apr-2022 22:27:35 UTC] PHP   2. require() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:17
+[28-Apr-2022 22:27:35 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-blog-header.php:13
+[28-Apr-2022 22:27:35 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:35 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:35 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:35 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:27:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:27:47 UTC] PHP Stack trace:
+[28-Apr-2022 22:27:47 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/async-upload.php:0
+[28-Apr-2022 22:27:47 UTC] PHP   2. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/async-upload.php:20
+[28-Apr-2022 22:27:47 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:27:47 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:27:47 UTC] PHP   5. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:27:47 UTC] PHP   6. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:27:47 UTC] PHP   7. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:28:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:28:13 UTC] PHP Stack trace:
+[28-Apr-2022 22:28:13 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:0
+[28-Apr-2022 22:28:13 UTC] PHP   2. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:22
+[28-Apr-2022 22:28:13 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:28:13 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:28:13 UTC] PHP   5. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:28:13 UTC] PHP   6. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:28:13 UTC] PHP   7. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:28:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:28:17 UTC] PHP Stack trace:
+[28-Apr-2022 22:28:17 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:0
+[28-Apr-2022 22:28:17 UTC] PHP   2. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:22
+[28-Apr-2022 22:28:17 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:28:17 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:28:17 UTC] PHP   5. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:28:17 UTC] PHP   6. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:28:17 UTC] PHP   7. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:28:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:28:25 UTC] PHP Stack trace:
+[28-Apr-2022 22:28:25 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:0
+[28-Apr-2022 22:28:25 UTC] PHP   2. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:22
+[28-Apr-2022 22:28:25 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:28:25 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:28:25 UTC] PHP   5. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:28:25 UTC] PHP   6. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:28:25 UTC] PHP   7. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:28:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:28:34 UTC] PHP Stack trace:
+[28-Apr-2022 22:28:34 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:0
+[28-Apr-2022 22:28:34 UTC] PHP   2. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:22
+[28-Apr-2022 22:28:34 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:28:34 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:28:34 UTC] PHP   5. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:28:34 UTC] PHP   6. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:28:34 UTC] PHP   7. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:30:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:30:35 UTC] PHP Stack trace:
+[28-Apr-2022 22:30:35 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:0
+[28-Apr-2022 22:30:35 UTC] PHP   2. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php:22
+[28-Apr-2022 22:30:35 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:30:35 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:30:35 UTC] PHP   5. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:30:35 UTC] PHP   6. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:30:35 UTC] PHP   7. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:31:32 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:31:32 UTC] PHP Stack trace:
+[28-Apr-2022 22:31:32 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:0
+[28-Apr-2022 22:31:32 UTC] PHP   2. require() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:17
+[28-Apr-2022 22:31:32 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-blog-header.php:13
+[28-Apr-2022 22:31:32 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:31:32 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:31:32 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:31:32 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:31:32 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:31:32 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:31:32 UTC] PHP Stack trace:
+[28-Apr-2022 22:31:32 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:0
+[28-Apr-2022 22:31:32 UTC] PHP   2. require() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:17
+[28-Apr-2022 22:31:32 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-blog-header.php:13
+[28-Apr-2022 22:31:32 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:31:32 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:31:32 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:31:32 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:31:32 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 22:31:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'config_custom_logo' not found or invalid function name in /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 22:31:33 UTC] PHP Stack trace:
+[28-Apr-2022 22:31:33 UTC] PHP   1. {main}() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:0
+[28-Apr-2022 22:31:33 UTC] PHP   2. require() /Users/krlmhkl/Local Sites/pilots/app/public/index.php:17
+[28-Apr-2022 22:31:33 UTC] PHP   3. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-blog-header.php:13
+[28-Apr-2022 22:31:33 UTC] PHP   4. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-load.php:50
+[28-Apr-2022 22:31:33 UTC] PHP   5. require_once() /Users/krlmhkl/Local Sites/pilots/app/public/wp-config.php:91
+[28-Apr-2022 22:31:33 UTC] PHP   6. do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-settings.php:565
+[28-Apr-2022 22:31:33 UTC] PHP   7. WP_Hook->do_action() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 22:31:33 UTC] PHP   8. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
+[29-Apr-2022 10:42:00 UTC] PHP Parse error:  syntax error, unexpected 'get_bloginfo' (T_STRING) in /Users/krlmhkl/Local Sites/pilots/app/public/wp-content/themes/test-theme/header.php on line 28
+[29-Apr-2022 10:42:11 UTC] PHP Parse error:  syntax error, unexpected 'get_bloginfo' (T_STRING) in /Users/krlmhkl/Local Sites/pilots/app/public/wp-content/themes/test-theme/header.php on line 28

@@ -1,18 +1,18 @@
 <?php
+
+
+
+
 //Adds dynamic title tag support
 function testtheme_theme_support(){
+
     add_theme_support('title-tag');
+    add_theme_support('custom-logo');
 }
 
 add_action('after_setup_theme', 'testtheme_theme_support');
 
-function config_custom_logo() {
 
-    add_theme_support( 'custom-logo' );
-
-}
-
-add_action( 'after_setup_theme' , 'config_custom_logo' );
 
 function testtheme_menus(){
 
@@ -50,5 +50,36 @@ function testtheme_register_scripts(){
 }
 
 add_action('wp_enqueue_scripts', 'testtheme_register_scripts');
+
+function testtheme_widget_areas(){
+
+    register_sidebar(
+        array(
+            'before_title' => '',
+            'after_title' => '',
+            'before_widget' => '',
+            'after_widget' => '',
+            'name' => 'Sidebar area',
+            'id' => 'sidebar-1',
+            'description' => 'The sidebar widget area',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'before_title' => '',
+            'after_title' => '',
+            'before_widget' => '',
+            'after_widget' => '',
+            'name' => 'Footer area',
+            'id' => 'footer-1',
+            'description' => 'The footer widget area',
+        )
+    );
+
+
+}
+
+add_action('widgets_init', 'testtheme_widget_areas');
 
 ?>
