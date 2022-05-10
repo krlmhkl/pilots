@@ -36,8 +36,8 @@
 
 		<header class="header text-center">
 
-			<a class="site-title pt-lg-4 mt-4" href="index.html"><?php echo get_bloginfo('name'); ?></a>
-
+			<!-- <a class="site-title pt-lg-4 mt-4" href="https://pilots.ee"><?php echo get_bloginfo('name'); ?></a>
+ -->
 			<nav class="navbar navbar-expand-lg navbar-dark">
 
 
@@ -45,14 +45,14 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<div id="navigation" class="collapse navbar-collapse flex-column">
+				<div id="navigation" class="collapse navbar-collapse flex-column ">
 					<?php
 					if (function_exists('the-custom-logo')) {
 						$custom_logo_id = get_theme_mod('custom_logo');
 						$logo = wp_get_attachment_image_src($custom_logo_id);
 					}
 					?>
-					<img class="mb-3 mx-auto logo" src="http://pilots.local/wp-content/uploads/2022/04/EEL_logo2-removebg-preview.png" alt="logo">
+					<a href="http://pilots.local"><img class="mb-3 mx-auto logo" src="http://pilots.local/wp-content/uploads/2022/04/EEL_logo2-removebg-preview.png" alt="logo"></a>
 
 					<?php
 
@@ -61,7 +61,7 @@
 							'menu' => 'primary',
 							'container' => '',
 							'theme_location' => 'primary',
-							'items_wrap' => '<ul id="" class="navbar-nav flex-column text-lg-left text-md-left text-sm-left text-xs-left">%3$s</ul>'
+							'items_wrap' => '<ul id="" class="navbar-nav flex-column text-lg-left text-md-left text-sm-left text-xs-left skew">%3$s</ul>'
 						)
 					);
 
@@ -90,10 +90,41 @@
 					<div class="line2"></div>
 					<div class="line3"></div>
 				</div>
+				<div class="">
+					<?php
+					if (function_exists('the-custom-logo')) {
+						$custom_logo_id = get_theme_mod('custom_logo');
+						$logo = wp_get_attachment_image_src($custom_logo_id);
+					}
+					?>
+					<a href="http://pilots.local"><img class="mb-3 mx-auto logo" src="http://pilots.local/wp-content/uploads/2022/04/EEL_logo2-removebg-preview.png" alt="logo"></a>
+
+					<?php
+
+					wp_nav_menu(
+						array(
+							'menu' => 'primary',
+							'container' => '',
+							'theme_location' => 'primary',
+							'items_wrap' => '<ul id="" class="navbar-nav flex-column text-lg-left text-md-left text-sm-left text-xs-left">%3$s</ul>'
+						)
+					);
+
+					?>
+
+
+					<ul class="social-list list-inline py-3 mx-auto">
+						<li class="list-inline-item"><a href="https://www.facebook.com/pilots.ee"><i class="fab fa-facebook fa-fw"></i></a></li>
+
+					</ul>
+
+				</div>
+
+
 			</nav>
 		</div>
 
 		<div class="main-wrapper">
 			<div class="page-title text-center gradient py-5">
-				<h1 class="heading unskew"><?php the_title(); ?></h1>
+				<h2 class="heading"><?php the_title(); ?></h1>
 			</div>

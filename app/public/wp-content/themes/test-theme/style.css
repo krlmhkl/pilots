@@ -47,7 +47,7 @@ Author: Karl-Mihkel Truu
   --font-normal: 1em;
   --font-small: 0.8125rem;
   /* Sidebar */
-  --sidebar-width: 280px;
+  --sidebar-width: 360px;
   --content-max-width: 860px;
 }
 
@@ -68,9 +68,8 @@ body {
 
 #background-video {
   position: absolute;
-
-  margin-left: -900px;
-  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
   overflow: hidden;
 
   /*   width: var(--sidebar-width);
@@ -90,6 +89,18 @@ h6 {
   font-family: "Space Grotesk", sans-serif;
   color: var(--dark-text);
   font-weight: lighter;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
 }
 
 .make-things-work {
@@ -136,14 +147,12 @@ h6 {
   height: 100vh;
   width: var(--sidebar-width);
   color: var(--dark-text);
-  transform: skewY(-1.5deg);
-  transform-origin: 0%;
   overflow: hidden;
 }
 .header .site-title {
   font-family: "Space Grotesk", sans-serif;
   color: var(--dark-text);
-  font-size: 1.2em;
+  font-size: 48px;
   display: flex;
   justify-content: center;
 }
@@ -161,6 +170,8 @@ h6 {
 }
 
 .header .navbar {
+  display: flex;
+  flex-direction: column;
   font-family: "Space Grotesk", sans-serif;
   padding: 2rem 1rem;
   z-index: 1;
@@ -184,7 +195,7 @@ h6 {
 .header .nav-item {
   color: var(--dark-text);
   font-weight: normal;
-  font-size: larger;
+  font-size: 32px;
 }
 
 .header .nav-item.active .nav-link {
@@ -204,7 +215,9 @@ h6 {
   color: var(--secondary);
 }
 .logo {
-  width: 78px;
+  width: var(--sidebar-width);
+  margin-top: 2rem;
+  padding-bottom: 4rem;
 }
 .social-list a {
   width: 48px;
@@ -221,41 +234,50 @@ h6 {
   color: var(--secondary);
 }
 
-.main-wrapper {
-  position: relative;
-  width: 100vw - var(--sidebar-width);
-  margin-left: var(--sidebar-width);
-  background: var(--light-text);
-  overflow-y: scroll;
+.nav-login {
+  background: rgba(255, 255, 255, 0.5);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.65) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding-left: 1rem;
+  margin-left: -1rem;
 }
 
-.main-wrapper .container {
-  max-width: var(--content-max-width);
+.main-wrapper {
+  position: relative;
+  width: 100vw;
+  margin-left: var(--sidebar-width);
+  /* background: var(--light-text); */
+  overflow-y: scroll;
+  height: 100vh;
 }
+
 .page-title {
   z-index: 9999;
-  transition: all 0.2s;
-  background: var(--primary);
+  width: 100vw - var(--sidebar-width);
+  /* background: var(--primary); */
 }
-.sticky {
+/* .sticky {
   padding: 1em 0 !important;
-}
+} */
 .page-title .heading {
   padding-top: 2rem;
-  font-size: 2rem;
   font-weight: lighter;
-  color: var(--light-text);
+  color: var(--dark-text);
 }
 
 .footer {
   position: relative;
-  height: 16rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
   background: var(--primary);
   color: var(--light-text);
   font-family: "Space Grotesk", sans-serif;
   font-weight: lighter;
-  transform: skewY(-1.5deg);
-  transform-origin: 0%;
 }
 
 .footer a {
@@ -263,9 +285,11 @@ h6 {
 }
 
 .gradient {
-  position: relative;
   width: 100vw - var(--sidebar-width);
-  background: var(--primary) !important;
+  height: 10rem;
+}
+
+.skew {
   transform: skewY(-1.5deg);
   transform-origin: 0%;
 }
@@ -278,21 +302,30 @@ h6 {
 
 .content {
   z-index: 9999;
-  background: var(--light-text);
+  /* background: var(--light-text) */
+}
+
+.light-title {
+  color: var(--light-text);
 }
 
 .text-block {
-  max-width: 48rem;
+  font-size: 18px;
+  max-width: 40rem;
+  color: var(--light-text);
 }
 
 .blue-block {
   background: var(--primary);
-  transform: skewY(-1.5deg);
-  transform-origin: 0%;
   padding: 3rem;
 }
 
 .light-block {
+  background: var(--light-text);
+  padding: 3rem;
+}
+
+.transparent-block {
   padding: 3rem;
 }
 
@@ -437,6 +470,15 @@ h6 {
   font-size: 1.5rem;
 }
 
+.mec-timeline-event-content {
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+}
+
+.mec-wrap .mec-timeline-event-content a.mec-timeline-readmore:hover {
+  background: #55b8ec;
+}
+
 .mobile-header {
   display: none;
   position: relative;
@@ -472,7 +514,7 @@ h6 {
   }
 
   .mobile-header {
-    display: block;
+    display: none;
   }
 
   .page-title {

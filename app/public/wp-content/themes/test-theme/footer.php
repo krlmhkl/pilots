@@ -1,6 +1,6 @@
-<footer class="footer text-center py-4">
+<footer class="footer text-center">
 
-    <p class="copyright unskew"><a href="https://pilots.ee">2022 - Eesti Erapilootide Liit</a></p>
+    <p class="copyright"><a href="https://pilots.ee">2022 - Eesti Erapilootide Liit</a></p>
 
     <?php
     dynamic_sidebar('footer-1');

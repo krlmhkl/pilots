@@ -196,3 +196,14 @@
 [03-May-2022 07:28:45 UTC] PHP   4. WP_Hook->apply_filters() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:331
 [03-May-2022 07:28:45 UTC] PHP   5. wp_version_check() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php:307
 [03-May-2022 07:28:45 UTC] PHP   6. trigger_error() /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/update.php:175
+[10-May-2022 18:53:47 UTC] WordPress database error Table 'local.gmp_markers' doesn't exist for query SELECT id, marker_group_id FROM gmp_markers made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/google-maps-easy/gmp.php'), installerGmp::update, installerGmp::init
+[10-May-2022 18:53:47 UTC] WordPress database error Table 'local.gmp_markers' doesn't exist for query SELECT id, marker_group_id FROM gmp_markers made by activate_plugin, do_action('activate_google-maps-easy/gmp.php'), WP_Hook->do_action, WP_Hook->apply_filters, utilsGmp::activatePlugin, installerGmp::init
+[10-May-2022 19:06:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /Users/krlmhkl/Local Sites/pilots/app/public/wp-content/plugins/google-maps-easy/modules/marker/models/marker.php:491
+Stack trace:
+#0 /Users/krlmhkl/Local Sites/pilots/app/public/wp-content/plugins/google-maps-easy/modules/gmap/controller.php(45): markerModelGmp->setMarkersToMap(Array, 1)
+#1 /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php(307): gmapControllerGmp->save('')
+#2 /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /Users/krlmhkl/Local Sites/pilots/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /Users/krlmhkl/Local Sites/pilots/app/public/wp-admin/admin-ajax.php(187): do_action('wp_ajax_save')
+#5 {main}
+  thrown in /Users/krlmhkl/Local Sites/pilots/app/public/wp-content/plugins/google-maps-easy/modules/marker/models/marker.php on line 491
