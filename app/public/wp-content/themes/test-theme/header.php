@@ -41,20 +41,12 @@
 
 
 			<nav class="navbar navbar-dark">
-				<!-- 	<video id="mobile-video" autoplay loop muted poster="http://pilots.local/wp-content/uploads/2022/05/poster.png">
-					<source src="http://pilots.local/wp-content/uploads/2022/04/clouds-bg-sm.mp4" type="video/mp4">
-				</video> -->
 
 				<div class="burger">
 					<div class="line1"></div>
 					<div class="line2"></div>
 					<div class="line3"></div>
 				</div>
-				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button> -->
-
-
 
 				<div id="navigation" class=" flex-column ">
 					<?php
@@ -93,47 +85,6 @@
 			dynamic_sidebar('sidebar-1');
 			?>
 		</header>
-
-		<div class="mobile-header">
-			<nav class="mobile-nav">
-				<!-- <div class="burger">
-					<div class="line1"></div>
-					<div class="line2"></div>
-					<div class="line3"></div>
-				</div> -->
-				<div class="nav-items-mobile">
-					<?php
-					if (function_exists('the-custom-logo')) {
-						$custom_logo_id = get_theme_mod('custom_logo');
-						$logo = wp_get_attachment_image_src($custom_logo_id);
-					}
-					?>
-					<a href="http://pilots.local"><img class="mb-3 mx-auto logo" src="http://pilots.local/wp-content/uploads/2022/04/EEL_logo2-removebg-preview.png" alt="logo"></a>
-
-					<?php
-
-					wp_nav_menu(
-						array(
-							'menu' => 'primary',
-							'container' => '',
-							'theme_location' => 'primary',
-							'items_wrap' => '<ul id="" class="nav-item-mobile navbar-nav flex-column text-lg-left text-md-left text-sm-left text-xs-left">%3$s</ul>'
-						)
-					);
-
-					?>
-
-
-					<ul class="social-list list-inline py-3 mx-auto">
-						<li class="list-inline-item"><a href="https://www.facebook.com/pilots.ee"><i class="fab fa-facebook fa-fw"></i></a></li>
-
-					</ul>
-
-				</div>
-
-
-			</nav>
-		</div>
 
 		<div class="main-wrapper">
 			<div class="page-title text-center gradient py-5">
