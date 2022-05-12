@@ -38,14 +38,25 @@
 
 			<!-- <a class="site-title pt-lg-4 mt-4" href="https://pilots.ee"><?php echo get_bloginfo('name'); ?></a>
  -->
-			<nav class="navbar navbar-expand-lg navbar-dark">
 
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<nav class="navbar navbar-dark">
+				<!-- 	<video id="mobile-video" autoplay loop muted poster="http://pilots.local/wp-content/uploads/2022/05/poster.png">
+					<source src="http://pilots.local/wp-content/uploads/2022/04/clouds-bg-sm.mp4" type="video/mp4">
+				</video> -->
+
+				<div class="burger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
-				</button>
+				</button> -->
 
-				<div id="navigation" class="collapse navbar-collapse flex-column ">
+
+
+				<div id="navigation" class=" flex-column ">
 					<?php
 					if (function_exists('the-custom-logo')) {
 						$custom_logo_id = get_theme_mod('custom_logo');
@@ -85,12 +96,12 @@
 
 		<div class="mobile-header">
 			<nav class="mobile-nav">
-				<div class="burger">
+				<!-- <div class="burger">
 					<div class="line1"></div>
 					<div class="line2"></div>
 					<div class="line3"></div>
-				</div>
-				<div class="">
+				</div> -->
+				<div class="nav-items-mobile">
 					<?php
 					if (function_exists('the-custom-logo')) {
 						$custom_logo_id = get_theme_mod('custom_logo');
@@ -106,7 +117,7 @@
 							'menu' => 'primary',
 							'container' => '',
 							'theme_location' => 'primary',
-							'items_wrap' => '<ul id="" class="navbar-nav flex-column text-lg-left text-md-left text-sm-left text-xs-left">%3$s</ul>'
+							'items_wrap' => '<ul id="" class="nav-item-mobile navbar-nav flex-column text-lg-left text-md-left text-sm-left text-xs-left">%3$s</ul>'
 						)
 					);
 

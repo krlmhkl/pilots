@@ -1,9 +1,9 @@
 /*
-Theme Name: Test
-Text Domain: Test
+Theme Name: Pilots.ee
+Text Domain: pilots.ee
 Version: 1.1
-Description: Testing this thing out
-Tags: testing, one, two, three
+Description: Custom theme for pilots.ee
+Tags:
 Author: Karl-Mihkel Truu
 */
 
@@ -488,13 +488,21 @@ h3 {
   background-color: #28a745;
 }
 
+.burger {
+  display: none;
+}
+
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: var(--dark-text);
   margin: 5px;
   transition: all 0.4s ease;
 }
+
+/* .mobile-video {
+  display: none;
+} */
 
 @media (prefers-reduced-motion: reduce) {
   .social-list a {
@@ -513,19 +521,49 @@ h3 {
     flex-direction: column;
   }
 
-  .mobile-header {
-    display: none;
+  /*   .mobile-header {
+    display: block;
+  } */
+
+  .burger {
+    display: block;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
   }
 
-  .page-title {
-    position: static;
-  }
   .header {
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .navbar-nav {
+    font-size: 36px;
+    opacity: 0;
+  }
+
+  /*  .mobile-video {
+    display: block;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+  } */
+
+  /* .page-title {
+    position: static;
+  } */
+  /*   .header {
     display: none;
     position: sticky;
     width: inherit;
     height: auto;
-  }
+  } */
 
   .header .nav-item {
     font-size: xx-large;
@@ -545,16 +583,45 @@ h3 {
     display: block;
   }
 
-  .header .btn-primary {
+  /* .header .btn-primary {
     width: 100%;
-  }
+  } */
 
   .header .navbar {
-    padding: 1rem;
+    height: 100vh;
+    width: 100vw;
+    background: var(--light-text);
   }
 
   .main-wrapper {
     margin-left: 0;
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(0px);
+      transform: skewY(0deg);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+      transform: skewY(-1.5deg);
+    }
+  }
+
+  .burger-active .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .burger-active .line2 {
+    opacity: 0;
+  }
+  .burger-active .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  .nav-active {
+    width: 100%;
   }
 }
 
