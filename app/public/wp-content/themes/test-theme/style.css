@@ -74,8 +74,11 @@ body {
 }
 
 a {
-  color: var(--dark-text);
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--secondary);
 }
+
 h1,
 h2,
 h3,
@@ -211,6 +214,16 @@ h3 {
   text-decoration: none;
   color: var(--secondary);
 }
+
+.menu-item a {
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary);
+}
+
 .logo {
   width: var(--sidebar-width);
   margin-top: 2rem;
@@ -479,6 +492,23 @@ figcaption {
 
 .mec-wrap .mec-timeline-event-content a.mec-timeline-readmore:hover {
   background: #55b8ec;
+}
+
+.mec-events-event-image img {
+  max-width: 800px;
+  height: auto;
+}
+
+.mec-event-content {
+  background-color: #fff;
+}
+
+.mec-single-title {
+  padding-left: 2rem;
+}
+
+.mec-single-event-description {
+  padding-left: 2rem;
 }
 
 .burger {

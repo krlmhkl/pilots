@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Eesti Erapilootide Liit">
 	<meta name="author" content="Karl-Mihkel Truu">
-	<link rel="shortcut icon" href="./wp-content/uploads/2022/04/EEL_logo2-removebg-preview.png">
+	<link rel="shortcut icon" href="https://ta20truu.itmajakas.ee/wp-content/uploads/2022/04/EEL_logo2-removebg-preview.png">
 
 	<!-- FontAwesome CSS, Bootstrap CSS and Theme CSS get inserted by wp_head, check functions.php for more details -->
 	<?php
@@ -24,8 +24,8 @@
 </head>
 
 <body>
-	<video id="background-video" autoplay loop muted poster="./wp-content/uploads/2022/05/poster.png">
-		<source src="./wp-content/uploads/2022/04/clouds-bg-sm.mp4" type="video/mp4">
+	<video id="background-video" autoplay loop muted poster="https://ta20truu.itmajakas.ee/wp-content/uploads/2022/05/poster.png">
+		<source src="https://ta20truu.itmajakas.ee/wp-content/uploads/2022/04/clouds-bg-sm.mp4" type="video/mp4">
 	</video>
 	<!-- Facebook plugin -->
 	<div id="fb-root"></div>
@@ -55,7 +55,7 @@
 						$logo = wp_get_attachment_image_src($custom_logo_id);
 					}
 					?>
-					<a href="./"><img class="mb-3 mx-auto logo" src="./wp-content/uploads/2022/04/EEL_logo2-removebg-preview.png" alt="logo"></a>
+					<a href="https://ta20truu.itmajakas.ee/"><img class="mb-3 mx-auto logo" src="https://ta20truu.itmajakas.ee/wp-content/uploads/2022/04/EEL_logo2-removebg-preview.png" alt="logo"></a>
 
 					<?php
 
